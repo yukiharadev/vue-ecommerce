@@ -1,0 +1,32 @@
+[
+    {
+      "name": "Black T-Shirt",
+      "price": "$20",
+      "img": "./src/assets/images/product_test.png"
+    },
+    {
+      "name": "White T-Shirt",
+      "price": "$20",
+      "img": "./src/assets/images/product_test.png"
+    },
+    {
+      "name": "Blue T-Shirt",
+      "price": "$20",
+      "img": "./src/assets/images/product_test.png"
+    },
+    {
+      "name": "Red T-Shirt",
+      "price": "$20",
+      "img": "./src/assets/images/product_test.png"
+    },
+    {
+      "name": "Yellow T-Shirt",
+      "price": "$20",
+      "img": "./src/assets/images/product_test.png"
+    },
+    {
+      "name": "Green T-Shirt",
+      "price": "$20",
+      "img": "./src/assets/images/product_test.png"
+    }
+  ]
