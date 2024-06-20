@@ -77,8 +77,9 @@
             </g>
           </svg>
         </fwb-button>
-        <fwb-button class="ml-3" color="default" outline pill square>
-          <svg
+        <RouterLink to="/signup" class="ml-3">
+          <fwb-button color="default" outline pill square>
+            <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
@@ -91,7 +92,8 @@
               transform="translate(4 2)"
             ></path>
           </svg>
-        </fwb-button>
+          </fwb-button>
+        </RouterLink>
       </template>
     </fwb-navbar>
   </div>

@@ -11,7 +11,7 @@ import { RouterView } from "vue-router";
   <main class="bg-[#F2F0F1]">
     <RouterView />
   </main>
-  <footer>
+  <footer >
     <AppFooter />
   </footer>
 </template>

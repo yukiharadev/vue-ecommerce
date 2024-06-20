@@ -4,19 +4,19 @@
       <div class="flex justify-between">
         <div class="grid grid-cols-2 gap-4">
           <div
-            class="font-integral-cf text-4xl text-start items-center py-10 pl-10 text-white"
+            class="font-integral-cf text-4xl text-start items-center py-10 pl-10 text-white flex"
           >
             STAY UPTO DATE ABOUT OUR LATEST OFFERS
           </div>
-          <div class="justify-center items-center content-center flex">
-            <div>
+          <div class="justify-center items-center content-center">
+            <div class="rounded-full">
               <input
                 type="email"
-                class="w-96 h-12 px-4 text-gray-900 placeholder-gray-500 bg-white border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                class=" w-96 h-12 px-4 text-gray-900 placeholder-gray-500 bg-white border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent"
                 placeholder="Enter your email address"
               />
-              <fwb-button color="light">Subscribe to Newsletter</fwb-button>
             </div>
+            <fwb-button class="mt-2 rounded-full" color="light">Subscribe to Newsletter</fwb-button>
           </div>
         </div>
       </div>
