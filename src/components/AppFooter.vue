@@ -1,26 +1,5 @@
 <template>
   <div class="bg-[#F2F0F1]">
-    <div class="container max-w-7xl mx-auto bg-black rounded-2xl">
-      <div class="flex justify-between">
-        <div class="grid grid-cols-2 gap-4">
-          <div
-            class="font-integral-cf text-4xl text-start items-center py-10 pl-10 text-white flex"
-          >
-            STAY UPTO DATE ABOUT OUR LATEST OFFERS
-          </div>
-          <div class="justify-center items-center content-center">
-            <div class="rounded-full">
-              <input
-                type="email"
-                class=" w-96 h-12 px-4 text-gray-900 placeholder-gray-500 bg-white border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent"
-                placeholder="Enter your email address"
-              />
-            </div>
-            <fwb-button class="mt-2 rounded-full" color="light">Subscribe to Newsletter</fwb-button>
-          </div>
-        </div>
-      </div>
-    </div>
     <fwb-footer
       footer-type="socialmedia"
       class="bg-[#F2F0F1] container max-w-7xl mx-auto"

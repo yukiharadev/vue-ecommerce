@@ -12,7 +12,9 @@ export default {
         "integral-cf": ["Integral CF"],
       },
       backgroundPosition: {
-        "poss-6": "6rem",
+        'custom': '6rem -8rem',
+        'custom-2': '3rem -25rem',
+        'custom-3': '0rem -15rem',  
       },
     },
   },

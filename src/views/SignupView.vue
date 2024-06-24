@@ -1,48 +1,115 @@
 <template>
-  <div class="container flex justify-center items-center h-screen">
-    <div class="space-y-7">
-      <div class="text-center">
-        <div class="font-integral-cf text-2xl">Log in into your account</div>
-        <div>Welcome back! Please enter your details</div>
+  <div>
+    <div class="grid grid-cols-5">
+      <div class="col-span-2 bg-[#F9FAFB] h-screen">
+        <ol class="space-y-4 w-72 ">
+          <li>
+            <div
+              class="w-full p-4 text-green-700 border border-green-300 rounded-lg bg-green-50 dark:bg-gray-800 dark:border-green-800 dark:text-green-400"
+              role="alert"
+            >
+              <div class="flex items-center justify-between">
+                <span class="sr-only">User info</span>
+                <h3 class="font-medium">1. User info</h3>
+                <svg
+                  class="w-4 h-4"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 16 12"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M1 5.917 5.724 10.5 15 1.5"
+                  />
+                </svg>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              class="w-full p-4 text-green-700 border border-green-300 rounded-lg bg-green-50 dark:bg-gray-800 dark:border-green-800 dark:text-green-400"
+              role="alert"
+            >
+              <div class="flex items-center justify-between">
+                <span class="sr-only">Account info</span>
+                <h3 class="font-medium">2. Account info</h3>
+                <svg
+                  class="w-4 h-4"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 16 12"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M1 5.917 5.724 10.5 15 1.5"
+                  />
+                </svg>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              class="w-full p-4 text-blue-700 bg-blue-100 border border-blue-300 rounded-lg dark:bg-gray-800 dark:border-blue-800 dark:text-blue-400"
+              role="alert"
+            >
+              <div class="flex items-center justify-between">
+                <span class="sr-only">Social accounts</span>
+                <h3 class="font-medium">3. Social accounts</h3>
+                <svg
+                  class="rtl:rotate-180 w-4 h-4"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 14 10"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M1 5h12m0 0L9 1m4 4L9 9"
+                  />
+                </svg>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              class="w-full p-4 text-gray-900 bg-gray-100 border border-gray-300 rounded-lg dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400"
+              role="alert"
+            >
+              <div class="flex items-center justify-between">
+                <span class="sr-only">Review</span>
+                <h3 class="font-medium">4. Review</h3>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              class="w-full p-4 text-gray-900 bg-gray-100 border border-gray-300 rounded-lg dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400"
+              role="alert"
+            >
+              <div class="flex items-center justify-between">
+                <span class="sr-only">Confirmation</span>
+                <h3 class="font-medium">5. Confirmation</h3>
+              </div>
+            </div>
+          </li>
+        </ol>
       </div>
-      <fwb-input
-        v-model="name"
-        class="w-full"
-        label="Email"
-        placeholder="Enter your Email"
-      >
-      </fwb-input>
-      <fwb-input
-        v-model="password"
-        class="w-full"
-        label="Password"
-        placeholder="*********"
-        type="password"
-      >
-      </fwb-input>
-      <div class="space-y-3">
-        <fwb-button color="dark" class="w-full" outline> Sign Up </fwb-button>
-        <div class="flex justify-between">
-          <fwb-checkbox v-model="check" label="Remember for 30days" />
-          <span class="cursor-pointer text-purple-600 font-bold"
-            >Forgot password</span
-          >
-        </div>
-        <fwb-button color="light" class="w-full" size="md">
-          <img src="/public/google.svg" class="w-[20px] inline mr-2 h-auto" />
-          <Slot class="ml-1">Sign in with Google</Slot>
-        </fwb-button>
-      </div>
-      <div class="text-center">
-        <span>Don't have an account?</span>
-        <span class="cursor-pointer text-purple-600 ml-1 font-bold">Sign Up</span>
-        </div>
+      <div class="col-span-3 bg-red-800 ">02</div>
     </div>
   </div>
 </template>
 
-<script setup>
-import { FwbButton, FwbInput, FwbCheckbox } from "flowbite-vue";
-</script>
+<script setup></script>
 
 <style lang="scss" scoped></style>
