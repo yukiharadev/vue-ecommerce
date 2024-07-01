@@ -12,42 +12,47 @@ const router = createRouter({
         {
           path: "",
           name: "home",
-          component: ()=> import("@/views/HomeView.vue")
+          component: () => import("@/views/Home/HomeView.vue"),
         },
         {
-          path: "contact",
-          name: "contact",
-          component: ()=> import("@/views/ContactView.vue")
+          path: "on-sale",
+          name: "on-sale",
+          component: () => import("@/views/OnSale/OnSaleView.vue"),
         },
         {
-          path: "services",
-          name: "services",
-          component: ()=> import("@/views/ServicesView.vue")
+          path: "brands",
+          name: "brands",
+          component: () => import("@/views/Brands/BrandsView.vue"),
         },
         {
-          path: "pricing",
-          name: "pricing",
-          component: ()=> import("@/views/PricingView.vue")
-        }
+          path: "new-arrivals",
+          name: "new-arrivals",
+          component: () => import("@/views/NewArrivals/NewArrivalsView.vue"),
+        },
       ],
     },
     {
-      path:"/auth",
-      name:"auth",
+      path: "/auth",
+      name: "auth",
       component: AuthLayout,
-      children:[
+      children: [
         {
           path: "signin",
           name: "signin",
-          component: ()=> import("@/views/SigninView.vue")
+          component: () => import("@/views/Auth/SigninView.vue"),
         },
         {
           path: "signup",
           name: "signup",
-          component: ()=> import("@/views/SignupView.vue")
-        }
-      ]
-    }
+          component: () => import("@/views/Auth/SignupView.vue"),
+        },
+        {
+          path: "forgot-password",
+          name: "forgot-password",
+          component: () => import("@/views/Auth/ForgotPasswordView.vue"),
+        },
+      ],
+    },
   ],
 });
 

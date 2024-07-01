@@ -1,0 +1,111 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Black T-Shirt",
+      "price": "$20",
+      "img": "./src/assets/images/product_test.png"
+    },
+    {
+      "id": 2,
+      "name": "White T-Shirt",
+      "price": "$20",
+      "img": "./src/assets/images/product_test.png"
+    },
+    {
+      "id": 3,
+      "name": "Blue T-Shirt",
+      "price": "$20",
+      "img": "./src/assets/images/product_test.png"
+    },
+    {
+      "id": 4,
+      "name": "Red T-Shirt",
+      "price": "$20",
+      "img": "./src/assets/images/product_test.png"
+    },
+    {
+      "id": 5,
+      "name": "Yellow T-Shirt",
+      "price": "$20",
+      "img": "./src/assets/images/product_test.png"
+    },
+    {
+      "id": 6,
+      "name": "Green T-Shirt",
+      "price": "$20",
+      "img": "./src/assets/images/product_test.png"
+    }
+  ],
+  "review": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "rating": 4.5,
+      "content": "Lorem ipsum dolor sit amet."
+    },
+    {
+      "id": 2,
+      "name": "Jane Doe",
+      "rating": 3.5,
+      "content": "Lorem ipsum dolor sit amet."
+    },
+    {
+      "id": 3,
+      "name": "John Doe",
+      "rating": 4.5,
+      "content": "Lorem ipsum dolor sit amet."
+    },
+    {
+      "id": 4,
+      "name": "Jane Doe",
+      "rating": 3.5,
+      "content": "Lorem ipsum dolor sit amet."
+    },
+    {
+      "id": 5,
+      "name": "John Doe",
+      "rating": 4.5,
+      "content": "Lorem ipsum dolor sit amet."
+    },
+    {
+      "id": 6,
+      "name": "Jane Doe",
+      "rating": 3.5,
+      "content": "Lorem ipsum dolor sit amet."
+    },
+    {
+      "id": 7,
+      "name": "John Doe",
+      "rating": 4.5,
+      "content": "Lorem ipsum dolor sit amet."
+    },
+    {
+      "id": 8,
+      "name": "Jane Doe",
+      "rating": 3.5,
+      "content": "Lorem ipsum dolor sit amet."
+    },
+    {
+      "id": 9,
+      "name": "John Doe",
+      "rating": 4.5,
+      "content": "Lorem ipsum dolor sit amet."
+    },
+    {
+      "id": 10,
+      "name": "Jane Doe",
+      "rating": 3.5,
+      "content": "Lorem ipsum dolor sit amet."
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "tested@gmail.com",
+      "password": "123456",
+      "token": "1234567890"
+    }
+  ]
+}
