@@ -6,6 +6,9 @@ export const getReviews = async () => {
     const response = await axios({
       method: "GET",
       url: `${BASE_URL}/${REVIEW_URL}`,
+      headers: {
+        "Content-Type": "application/json",
+      },
     });
     return response.data;
   } catch (error) {

@@ -11,7 +11,7 @@ import RattingCarosel from "@/components/Home/RattingCarosel.vue";
   <BannerComponent />
   <ShopBanner />
   <ProductRelease />
-  <!-- <TopSelling /> -->
+  <TopSelling />
   <FashionStyle />
-  <!-- <RattingCarosel /> -->
+  <RattingCarosel />
 </template>

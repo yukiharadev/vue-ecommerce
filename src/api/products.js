@@ -6,9 +6,6 @@ export const getProducts = async () => {
     const response = await axios({
       method: "GET",
       url: `${BASE_URL}/${PRODUCTS_URL}`,
-      headers: {
-        "Content-Type": "application/json",
-      },
     });
     return response.data;
   } catch (error) {
